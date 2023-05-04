@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: #394867;
+}
+
+.header-calc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.main-calc{
+    margin-bottom: 48px;
+    border-top: 0.1px solid black;
+}
+.container-calculator{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.calculator{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: #9BA4B5;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0, 0.323);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.title-calculator{
+    font-size: 22px;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    width: 100%;
+}
+.label-field{
+    font-size: 15px;
+    font-weight: 500;
+}
+.input-field{
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.result{
+    text-align: center;
+}
+.total{
+    font-size: 30px;
+}
+.calculate{
+    background-color: #F1F6F9;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}    
+
+.calculate:hover{
+    background-color: #8294C4;
+}
+
+
+
+
+
+.baseboard{
+    padding: 32px;
+    border-top: 0.4px solid black;
+
+}
+
+@media screen and (max-width: 780px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    body{
+        height: auto;
+    }
+    .header_calc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+    }
+    
+    
+    .baseboard{
+    padding: 32px;
+    border-top: 0.4px solid black;
+
+    }
+    
+
+}
